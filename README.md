@@ -147,8 +147,8 @@ After extracting the zip file, follow the relevant steps.
 
 # Optional - Submission a job using local webserver:
 To start the analaysis on local webserver, please see https://github.com/ziemertlab/funarts and install FunARTS.
-
-- Firstly, run server (from funartswebapp folder)::
+- Edit desired folders in configs (config/artsapp_default.conf and config/uwsgi.conf) and write all your working directories instead of "~PATH"
+- Then, run server (from funartswebapp folder)::
 ```bash
     uwsgi --ini config/uwsgi.conf
 ```
