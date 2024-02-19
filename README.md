@@ -29,7 +29,7 @@ II- Desired Log Directory: /my/path/to/log_file:/run/
 - Enter the required paths and run the command:
 
 ````bash
-docker run -it -v /my/path/to/results:/result_folders/ -v /my/path/to/log_file:/run/ -p 5000:5000 funartswebbapp:latest
+docker run -it -v /my/path/to/results:/result_folders/ -v /my/path/to/log_file:/run/ -p 5000:5000 ziemertlab/funartswebbapp:latest
 ````
 
 ## 2- Using Anaconda/Miniconda:
