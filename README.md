@@ -142,7 +142,7 @@ After extracting the zip file, follow the relevant steps.
 
 ````bash
   wget https://funarts.ziemertlab.com/archive/GCF_001890705.1.zip
-  tar -C ~PATH/results ~PATH/-xzvf GCF_001890705.1.zip
+  unzip ~PATH/GCF_001890705.1.zip -d ~PATH/results/GCF_001890705.1
 ````
 
 # Optional - Submission a job using local webserver:
